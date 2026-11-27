@@ -2,7 +2,7 @@ using System.Linq;
 
 namespace SistemaPizzaria
 {
-    // Encapsulamento: os dados do cliente ficam protegidos.
+    // encapsulamento
     public class Cliente
     {
         private string nome;
