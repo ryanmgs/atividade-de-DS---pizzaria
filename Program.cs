@@ -29,7 +29,7 @@ namespace SistemaPizzaria
             {
                 Console.Clear();
                 Console.WriteLine("====================================");
-                Console.WriteLine("           MENU PRINCIPAL");
+                Console.WriteLine("           MENU PRINCiAL");
                 Console.WriteLine("====================================");
                 Console.WriteLine($"Cliente: {cliente.Nome}");
                 Console.WriteLine();
