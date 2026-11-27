@@ -16,7 +16,7 @@ namespace SistemaPizzaria
             this.ingredientes = ingredientes;
         }
 
-        // Polimorfismo: implementação específica da descrição da pizza salgada.
+
         public override string ObterDescricao()
         {
             return $"{Nome} | {Categoria} | Ingredientes: {ingredientes} | Preço: {PrecoFormatado()}";
