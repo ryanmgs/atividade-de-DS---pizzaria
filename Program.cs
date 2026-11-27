@@ -185,7 +185,7 @@ namespace SistemaPizzaria
             Console.WriteLine("------------------------------------");
         }
 
-        // Adiciona pizzas e quantidades ao pedido.
+       
         private static void FazerPedido(List<Produto> cardapio, Pedido pedido)
         {
             if (pedido.Finalizado)
@@ -245,7 +245,7 @@ namespace SistemaPizzaria
             }
         }
 
-        // Mostra todos os itens, quantidades, subtotais e total.
+       
         private static void VisualizarPedido(Pedido pedido)
         {
             Console.WriteLine("====================================");
@@ -326,7 +326,7 @@ namespace SistemaPizzaria
             return false;
         }
 
-        // Lê um número inteiro dentro do intervalo permitido.
+     
         private static int LerInteiro(string mensagem, int minimo, int maximo)
         {
             int valor;
