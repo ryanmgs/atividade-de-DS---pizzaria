@@ -71,7 +71,6 @@ namespace SistemaPizzaria
             Console.WriteLine("Volte sempre!");
         }
 
-        // Cadastro do cliente.
         private static Cliente CadastrarCliente()
         {
             Console.WriteLine();
@@ -115,7 +114,7 @@ namespace SistemaPizzaria
             return cliente;
         }
 
-        // Criação do cardápio com pizzas doces e salgadas.
+       
         private static List<Produto> CriarCardapio()
         {
             List<Produto> cardapio = new List<Produto>();
@@ -155,7 +154,7 @@ namespace SistemaPizzaria
             return cardapio;
         }
 
-        // Exibição do cardápio. O método ObterDescricao demonstra polimorfismo.
+       
         private static void ExibirCardapio(List<Produto> cardapio)
         {
             Console.WriteLine("====================================");
@@ -280,7 +279,7 @@ namespace SistemaPizzaria
             Console.WriteLine(pedido.Finalizado ? "Status: FINALIZADO" : "Status: EM ABERTO");
         }
 
-        // Confirma e finaliza o pedido.
+    
         private static bool FinalizarPedido(Pedido pedido)
         {
             Console.WriteLine("====================================");
@@ -344,7 +343,7 @@ namespace SistemaPizzaria
             }
         }
 
-        // Lê uma resposta de sim ou não.
+      
         private static string LerRespostaSimNao()
         {
             while (true)
