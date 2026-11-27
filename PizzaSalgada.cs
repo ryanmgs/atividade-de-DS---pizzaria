@@ -1,6 +1,6 @@
 namespace SistemaPizzaria
 {
-    // Herança: PizzaSalgada herda os dados e comportamentos de Produto.
+    // Herança: PizzaSalgada herda de Produto
     public class PizzaSalgada : Produto
     {
         private string ingredientes;
