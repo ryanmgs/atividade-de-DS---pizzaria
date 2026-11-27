@@ -1,6 +1,6 @@
 namespace SistemaPizzaria
 {
-    // Herança: PizzaDoce também herda os dados e comportamentos de Produto.
+    // Herança: PizzaDoce herda de Produto.
     public class PizzaDoce : Produto
     {
         private string ingredientes;
@@ -16,7 +16,7 @@ namespace SistemaPizzaria
             this.ingredientes = ingredientes;
         }
 
-        // Polimorfismo: implementação específica da descrição da pizza doce.
+        
         public override string ObterDescricao()
         {
             return $"{Nome} | {Categoria} | Ingredientes: {ingredientes} | Preço: {PrecoFormatado()}";
