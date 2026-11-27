@@ -2,7 +2,7 @@ using System.Globalization;
 
 namespace SistemaPizzaria
 {
-    // Abstração: representa o conceito geral de um produto do cardápio.
+
     public abstract class Produto
     {
         private int id;
