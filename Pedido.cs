@@ -49,7 +49,7 @@ namespace SistemaPizzaria
             if (quantidade <= 0)
                 throw new ArgumentException("A quantidade deve ser maior que zero.");
 
-            // Se a pizza já estiver no pedido, soma a nova quantidade.
+            
             ItemPedido existente = itens.FirstOrDefault(
                 item => item.Produto.Id == produto.Id
             );
